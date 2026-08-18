@@ -20,3 +20,7 @@ jobs:
         run: pytest -q
       - name: Run screening model
         run: python lca_model.py
+      - name: Rebuild figures
+        run: python generate_figures.py
+      - name: Compile portfolio scripts
+        run: python -m py_compile lca_model.py generate_figures.py
