@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="520" viewBox="0 0 900 520">
+<rect width="100%" height="100%" fill="white"/>
+<style>text{font-family:Arial,sans-serif;fill:#111}.title{font-size:25px;font-weight:700}.label{font-size:15px}.value{font-size:16px;font-weight:700}.axis{stroke:#333;stroke-width:2}.bar{fill:#4b76a8}</style>
+<text x="450" y="35" text-anchor="middle" class="title">Ecodesign scenario comparison</text>
+<line x1="90" y1="430" x2="850" y2="430" class="axis"/>
+<line x1="90" y1="60" x2="90" y2="430" class="axis"/>
+<rect x="145" y="79.4" width="130" height="350.6" rx="4" class="bar"/>
+<text x="210.0" y="69.4" text-anchor="middle" class="value">170.6</text>
+<text x="210.0" y="458" text-anchor="middle" class="label">Baseline</text>
+<rect x="335" y="295.2" width="130" height="134.8" rx="4" class="bar"/>
+<text x="400.0" y="285.2" text-anchor="middle" class="value">65.6</text>
+<text x="400.0" y="458" text-anchor="middle" class="label">High recycled</text>
+<rect x="525" y="132.2" width="130" height="297.8" rx="4" class="bar"/>
+<text x="590.0" y="122.2" text-anchor="middle" class="value">144.9</text>
+<text x="590.0" y="458" text-anchor="middle" class="label">Lightweight</text>
+<rect x="715" y="316.0" width="130" height="114.0" rx="4" class="bar"/>
+<text x="780.0" y="306.0" text-anchor="middle" class="value">55.4</text>
+<text x="780.0" y="458" text-anchor="middle" class="label">Combined Ecodesign</text>
+<text x="25" y="250" transform="rotate(-90 25 250)" text-anchor="middle" class="label">Screening climate indicator</text>
+</svg>
