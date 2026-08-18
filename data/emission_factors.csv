@@ -1,0 +1,5 @@
+factor_id,activity,unit,factor,impact_unit,source,source_year,geography,system_boundary,quality_note
+al_primary_global_2022,primary_aluminium,kg,15.1,kgCO2e,International Aluminium Institute,2022,Global,Cradle-to-gate: mine to cast house,Public industry LCA statistic; full cradle-to-gate GHG boundary.
+al_recycled_global_2022,recycled_aluminium,kg,0.52,kgCO2e,International Aluminium Institute,2022,Global,Gate-to-gate recycled aluminium production,Boundary differs from primary aluminium factor; used only for transparent screening comparison.
+electricity_de_2025_direct,electricity,kWh,0.344,kgCO2,German Environment Agency (Umweltbundesamt),2025,Germany,Direct CO2 from electricity consumed; not full life-cycle CO2e,Official German electricity-mix factor. Boundary is narrower than material factors and is flagged in outputs.
+hgv_freight_screening,road_freight,tonne_km,0.07,kgCO2e,UK Government / UK ETS analytical annex,2025,UK screening proxy,Operational HGV freight emissions,Screening proxy based on government conversion-factor example; replace with project-specific logistics data in a real study.
