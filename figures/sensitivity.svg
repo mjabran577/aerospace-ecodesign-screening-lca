@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="460" viewBox="0 0 900 460">
+<rect width="100%" height="100%" fill="white"/>
+<style>text{font-family:Arial,sans-serif;fill:#111}.title{font-size:25px;font-weight:700}.label{font-size:16px}.value{font-size:15px;font-weight:700}.bar{fill:#4b76a8}</style>
+<text x="450" y="35" text-anchor="middle" class="title">Sensitivity of combined Ecodesign scenario</text>
+<text x="205" y="105" text-anchor="end" class="label">Primary aluminium</text>
+<rect x="220" y="80" width="555.7" height="38" rx="4" class="bar"/>
+<text x="785.7" y="105" class="value">16.67%</text>
+<text x="205" y="187" text-anchor="end" class="label">Electricity</text>
+<rect x="220" y="162" width="62.0" height="38" rx="4" class="bar"/>
+<text x="292.0" y="187" class="value">1.86%</text>
+<text x="205" y="269" text-anchor="end" class="label">Recycled aluminium</text>
+<rect x="220" y="244" width="44.7" height="38" rx="4" class="bar"/>
+<text x="274.7" y="269" class="value">1.34%</text>
+<text x="205" y="351" text-anchor="end" class="label">Road freight</text>
+<rect x="220" y="326" width="4.3" height="38" rx="4" class="bar"/>
+<text x="234.3" y="351" class="value">0.13%</text>
+<text x="450" y="430" text-anchor="middle" class="label">Maximum absolute result change for ±20% factor variation</text>
+</svg>
