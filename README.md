@@ -47,15 +47,15 @@ That does **not** mean the same reduction would automatically occur in a real sp
 
 ### Scenario comparison
 
-![Scenario comparison](figures/scenario_comparison.png)
+![Scenario comparison](figures/scenario_comparison.svg)
 
 ### Baseline hotspots
 
-![Baseline hotspots](figures/baseline_hotspots.png)
+![Baseline hotspots](figures/baseline_hotspots.svg)
 
 ### Sensitivity analysis
 
-![Sensitivity analysis](figures/sensitivity.png)
+![Sensitivity analysis](figures/sensitivity.svg)
 
 ## Architecture
 
@@ -92,14 +92,15 @@ CSV evidence + figures
 │   ├── methodology.md
 │   └── assumptions.md
 ├── results/
+│   ├── Executive_Summary.md
 │   ├── scenario_results.csv
 │   ├── baseline_hotspots.csv
 │   ├── sensitivity_results.csv
 │   └── factor_evidence.csv
 ├── figures/
-│   ├── scenario_comparison.png
-│   ├── baseline_hotspots.png
-│   └── sensitivity.png
+│   ├── scenario_comparison.svg
+│   ├── baseline_hotspots.svg
+│   └── sensitivity.svg
 ├── tests/
 │   └── test_lca_model.py
 └── .github/workflows/
@@ -120,9 +121,9 @@ The factor table stores the source, year, geography, unit, and system boundary f
 
 Public sources used for the screening model:
 
-- **International Aluminium Institute (IAI):** 2022 global primary aluminium carbon footprint of 15.1 t CO2e/t, and recycled aluminium production emissions of 0.52 t CO2e/t.
-- **German Environment Agency (Umweltbundesamt):** 2025 direct CO2 factor for electricity consumed in Germany of 344 g CO2/kWh.
-- **UK Government / UK ETS analytical example:** 0.07 kg CO2e per tonne-km for HGV freight as a screening proxy.
+- **International Aluminium Institute (IAI):** 2022 global primary aluminium carbon footprint of 15.1 t CO2e/t and recycled aluminium production emissions of 0.52 t CO2e/t. [IAI aluminium facts](https://international-aluminium.org/landing/aluminium-facts/)
+- **German Environment Agency (Umweltbundesamt):** 2025 direct CO2 factor for electricity consumed in Germany of 344 g CO2/kWh. [UBA 2025 electricity factor](https://www.umweltbundesamt.de/themen/co2-emissionen-pro-kilowattstunde-strom-2025-nur)
+- **UK Government / UK ETS analytical example:** 0.07 kg CO2e per tonne-km for HGV freight as a screening proxy. [UK ETS analytical annex](https://www.gov.uk/government/consultations/uk-ets-scope-expansion-ccs-non-pipeline-transport-of-carbon-dioxide/uk-emissions-trading-scheme-uk-ets-non-pipeline-transportation-of-carbon-dioxide-analytical-annex-html)
 
 The different system boundaries are intentionally retained in the evidence table rather than hidden. A real comparative LCA should harmonize them with a consistent LCI/LCIA dataset.
 
