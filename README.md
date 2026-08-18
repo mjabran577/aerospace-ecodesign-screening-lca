@@ -75,7 +75,7 @@ Scenario comparison
         ↓
 Sensitivity analysis
         ↓
-CSV evidence + figures
+CSV evidence + reproducible figures
 ```
 
 ## Repository structure
@@ -84,6 +84,7 @@ CSV evidence + figures
 .
 ├── README.md
 ├── lca_model.py
+├── generate_figures.py
 ├── requirements.txt
 ├── data/
 │   ├── emission_factors.csv
@@ -112,8 +113,11 @@ CSV evidence + figures
 ```bash
 pip install -r requirements.txt
 python lca_model.py
+python generate_figures.py
 pytest -q
 ```
+
+`lca_model.py` rebuilds the result tables from the scenario assumptions and controlled factor table. `generate_figures.py` then rebuilds the portfolio charts from those result files. GitHub Actions runs the tests, model, figure generation, and script compilation automatically.
 
 ## Data provenance
 
